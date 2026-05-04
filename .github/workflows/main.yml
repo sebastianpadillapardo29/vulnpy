@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "This is a build step"
+      - run: echo "This is a build step 2"
 
   test:
     runs-on: ubuntu-latest
