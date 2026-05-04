@@ -12,6 +12,7 @@ jobs:
       - run: echo "This is a build step 2"
 
   test:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - run: echo "This is a test step 2"
